@@ -12,5 +12,7 @@
 		<tile name="defense" x="32" y="0" width="32" height="32" />
 		<tile name="attack" x="64" y="0" width="32" height="32" />
 		<tile name="movement" x="96" y="0" width="32" height="32" />
+
+                <tile name="wheel" x="128" y="0" width="64" height="64" />
 	</tiles>
 </tileset>
