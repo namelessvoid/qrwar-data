@@ -1,7 +1,6 @@
 <!DOCTYPE tileset >
 <tileset>
-	<file href="./res/img/defaulttileset.png" />
-	<tiles>
+	<file path="./res/img/defaulttileset.png">
 		<tile name="plainsquare" x="0" y="0" width="32" height="32" />
 		<tile name="footstep" x="32" y="0" width="32" height="32" />
 
@@ -16,7 +15,9 @@
 		<tile name="wood" x="0" y="96" width="32" height="32" />
 		<tile name="hill" x="32" y="96" width="32" height="32" />
 
-		<tile name="wall"   x="64" y="96" width="32" height="32" />
 		<tile name="stairs" x="96" y="96" width="32" height="32" />
-	</tiles>
+	</file>
+	<file path="./res/img/structures/wall.png">
+		<tile name="wall_00000000" x="0" y="0" width="64" height="64" />
+	</file>
 </tileset>
