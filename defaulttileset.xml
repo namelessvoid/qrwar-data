@@ -7,15 +7,18 @@
 		<tile name="p1swordman" x="0" y="32" width="32" height="32" />
 		<tile name="p1archer" x="32" y="32" width="32" height="32" />
 		<tile name="p1spearman" x="64" y="32" width="32" height="32" />
+		<tile name="p1laddercarrier" x="64" y="128" width="64" height="64" />
 
 		<tile name="p2swordman" x="0" y="64" width="32" height="32" />
 		<tile name="p2archer" x="32" y="64" width="32" height="32" />
 		<tile name="p2spearman" x="64" y="64" width="32" height="32" />
+		<tile name="p2laddercarrier" x="0" y="128" width="64" height="64" />
 
 		<tile name="wood" x="0" y="96" width="32" height="32" />
 		<tile name="hill" x="32" y="96" width="32" height="32" />
 
 		<tile name="stairs" x="96" y="96" width="32" height="32" />
+		<tile name="ladder" x="96" y="0" width="64" height="64" />
 	</file>
 	<file path="./res/img/structures/wall.png">
 		<tile name="wall" x="0"   y="0" width="64" height="64" />
@@ -39,6 +42,5 @@
 		<tile name="wallNOW" x="256" y="128" width="64" height="64" />
 
 		<tile name="wallNOSW" x="0" y="192" width="64" height="64" />
-
 	</file>
 </tileset>
